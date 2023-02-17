@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ *  Prints reversed alphabet.
+ */
 
 int main(void)
 {

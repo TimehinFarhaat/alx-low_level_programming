@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+/**
+ *Prints numbers between 0 to 9 with commas and spaces.
+ */
 
 int main(void)
 {

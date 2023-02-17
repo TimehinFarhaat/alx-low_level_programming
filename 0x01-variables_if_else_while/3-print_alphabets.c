@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-
+/**
+ * main - Prints the alphabet.
+ */
 int main(void)
 {
 	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -13,3 +15,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

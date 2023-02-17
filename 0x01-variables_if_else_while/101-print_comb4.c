@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Prints numbers between 012 to 789.
+ */
+
 int main(void)
 {
 	int i, e, g;
