@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * Prints numbers between 0 to 9 and letters between a to f.
+ * main - Prints reversed alphabet.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int i;
