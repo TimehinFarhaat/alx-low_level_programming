@@ -5,11 +5,7 @@
  *
  * Return: no return
  */
-int main(void)
-{
-    jack_bauer();
-    return (0);
-}
+
 void jack_bauer(void)
 {
 	int a, b, c, d;
