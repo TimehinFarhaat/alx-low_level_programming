@@ -1,6 +1,6 @@
 /*
  * File: 4-print_rev.c
- *
+ * 
  */
 
 #include "main.h"
@@ -11,21 +11,14 @@
  */
 void print_rev(char *s)
 {
-	
-      char s[1000], r[1000];
-   int begin, end, count = 0;
-   
-     while (s[count] != '\0')
-      count++;
+	int len = 0, index;
 
-   end = count - 1;
+	while (s[index++])
+		len++;
 
-   for (begin = 0; begin < count; begin++) {
-      r[begin] = s[end];
-      end--;
-   }
-     r[begin] = '\0';
+	for (index = len - 1; index >= 0; index--)
+		_putchar(s[index]);
 
-   _putchar(s[count]);
 	_putchar('\n');
 }
+
