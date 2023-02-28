@@ -2,11 +2,11 @@
 #define  MAIN_H
 
 /**
- * File: holberton.h
- * Auth: Brennan D Baraban
- * Desc: Header file containing prototypes for all functions
- *       used in the 0x04-pointers_arrays_strings directory.
- */
+* File: main.h
+* 
+* header: Header file containing prototypes for all functions
+*       used in the 0x04-pointers_arrays_strings directory.
+*/
 
 #include <stdlib.h>
 
@@ -23,4 +23,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 
-#endif
+#endif 
