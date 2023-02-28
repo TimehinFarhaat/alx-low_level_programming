@@ -1,6 +1,6 @@
 /*
 * File: 100-atoi.c
-* 
+*
 */
 
 #include "main.h"
@@ -29,4 +29,4 @@ break;
 } while (*s++);
 
 return (num * sign);
-} 
+}

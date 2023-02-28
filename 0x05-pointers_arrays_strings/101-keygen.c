@@ -1,6 +1,6 @@
 /*
 * File: 101-keygen.c
-* 
+*
 */
 
 #include <stdio.h>
@@ -56,4 +56,4 @@ break;
 printf("%s", password);
 
 return (0);
-} 
+}

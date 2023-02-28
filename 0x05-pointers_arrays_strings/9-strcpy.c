@@ -1,6 +1,6 @@
 /*
 * File: 9-strcpy.c
-* 
+*
 */
 
 #include "main.h"
@@ -24,4 +24,4 @@ index++;
 }
 
 return (dest);
-} 
+}

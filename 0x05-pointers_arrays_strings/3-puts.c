@@ -1,6 +1,6 @@
 /*
 * File: 3-puts.c
-* 
+*
 */
 
 #include "main.h"
@@ -15,4 +15,4 @@ while (*str)
 _putchar(*str++);
 
 _putchar('\n');
-} 
+}

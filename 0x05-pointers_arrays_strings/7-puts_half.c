@@ -1,6 +1,6 @@
 /*
 * File: 7-puts_half.c
-* 
+*
 */
 
 #include "main.h"
@@ -26,4 +26,4 @@ for (index = n; index < len; index++)
 _putchar(str[index]);
 
 _putchar('\n');
-}  
+}

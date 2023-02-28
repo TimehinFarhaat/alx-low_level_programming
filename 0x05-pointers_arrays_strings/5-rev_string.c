@@ -1,6 +1,6 @@
 /*
 * File: 5-rev_string.c
-* 
+*
 */
 
 #include "main.h"
@@ -23,4 +23,4 @@ tmp = s[index];
 s[index] = s[len - index - 1];
 s[len - index - 1] = tmp;
 }
-}  
+}
