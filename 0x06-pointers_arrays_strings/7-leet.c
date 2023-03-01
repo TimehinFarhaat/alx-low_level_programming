@@ -1,6 +1,6 @@
 /*
  * File: 7-leet.c
- * 
+ *
  */
 
 #include "main.h"
@@ -29,4 +29,4 @@ char *leet(char *str)
 	}
 
 	return (str);
-}
+} 

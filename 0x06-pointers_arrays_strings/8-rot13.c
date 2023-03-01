@@ -1,6 +1,6 @@
 /*
  * File: 8-rot13.c
- * 
+ *
  */
 
 #include "main.h"
@@ -48,4 +48,4 @@ char *rot13(char *str)
 	}
 
 	return (str);
-}
+} 

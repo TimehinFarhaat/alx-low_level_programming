@@ -1,6 +1,6 @@
 /*
  * File: 5-string_toupper.c
- * 
+ *
  */
 
 #include "main.h"
@@ -25,4 +25,4 @@ char *string_toupper(char *str)
 	}
 
 	return (str);
-}
+} 

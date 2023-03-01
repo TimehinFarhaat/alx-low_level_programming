@@ -1,6 +1,6 @@
 /*
  * File: 0-strcat.c
- * 
+ *
  */
 
 #include "main.h"
@@ -24,4 +24,4 @@ char *strcat(char *dest, const char *src)
 		dest[dest_len++] = src[index];
 
 	return (dest);
-}
+} 
