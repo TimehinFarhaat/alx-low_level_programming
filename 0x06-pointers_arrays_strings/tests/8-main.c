@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * 
+ *
  *
  * Return: Always 0.
  */
@@ -27,4 +27,4 @@ int main(void)
 	printf("------------------------------------\n");
 	printf("%s", s);
 	return (0);
-}
+} 

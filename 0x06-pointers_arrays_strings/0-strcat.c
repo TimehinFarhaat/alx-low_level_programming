@@ -1,6 +1,6 @@
 /*
  * File: 0-strcat.c
- * 
+ *
  */
 
 #include "main.h"

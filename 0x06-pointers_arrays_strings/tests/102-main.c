@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * 
+ *
  *
  * Return: Always 0.
  */
@@ -56,4 +56,4 @@ int main(void)
 		printf("%s + %s = %s\n", n, m, res);
 	}
 	return (0);
-}
+} 

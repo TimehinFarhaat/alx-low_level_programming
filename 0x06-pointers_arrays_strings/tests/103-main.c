@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * 
+ *
  * Return: Always 0.
  */
 int main(void)
@@ -13,4 +13,4 @@ int main(void)
 	printf("---------------------------------\n");
 	print_buffer(buffer, sizeof(buffer));
 	return (0);
-}
+} 

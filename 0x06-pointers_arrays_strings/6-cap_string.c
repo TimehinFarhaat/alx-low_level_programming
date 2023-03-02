@@ -1,6 +1,6 @@
 /*
  * File: 6-cap_string.c
- * 
+ *
  */
 
 #include "man.h"
@@ -40,4 +40,4 @@ char *cap_string(char *str)
 	}
 
 	return (str);
-}
+} 
