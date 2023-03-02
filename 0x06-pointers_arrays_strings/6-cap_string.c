@@ -33,23 +33,35 @@ int is_sep(char s)
 *
 * Return: pointer to the modified string.
 */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
-	int sep, i;
+	int index = 0;
 
-	sep = 1;
-	i = 0;
-	while (s[i] != '\0')
+	while (str[index])
 	{
-		if (sep == 1 && (s[i] >= 'a' && s[i] <= 'z'))
-		{
-			s[i] -= 32;
-			sep = 0;
-		}
-		sep = is_sep(s[i]);
-		i++;
-}
-	return (s);
+		while (!(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+		    str[index - 1] == '\t' ||
+		    str[index - 1] == '\n' ||
+		    str[index - 1] == ',' ||
+		    str[index - 1] == ';' ||
+		    str[index - 1] == '.' ||
+		    str[index - 1] == '!' ||
+		    str[index - 1] == '?' ||
+		    str[index - 1] == '"' ||
+		    str[index - 1] == '(' ||
+		    str[index - 1] == ')' ||
+		    str[index - 1] == '{' ||
+		    str[index - 1] == '}' ||
+		    index == 0)
+			str[index] -= 32;
+
+		index++;
+	}
+
+	return (str);
 }
 
 
